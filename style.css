@@ -4,10 +4,10 @@ body{
 }
 .header{
    background-color:  #FFF8F3;
-   background-image: url(images/header_bg.png);
+   background-image: url('images/header_bg.png') , url('images/developer.png');
    background-repeat: no-repeat;
-   background-size: 600px;
-   background-position: bottom right;
+   background-size: 600px, 80px;
+   background-position: bottom right, top left;
   }
   main{
     max-width: 1140px;
@@ -23,6 +23,15 @@ body{
     font-weight: 700;
     color: white;
     border-radius: 5px;
+}
+#contact-button{
+    background-color:#FFF8F3 ;
+    color: #FD6E0A;
+text-align: center;
+font-size: 20px;
+font-weight: 700;
+border: 1px solid #FD6E0A;
+
 }
 
 nav{
@@ -190,5 +199,37 @@ hr{
 .resume-button{
     text-align:center;
     margin-top: 30px;
-    margin-bottom: 130px;
+   margin-bottom: 130px;
+}
+footer{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+.footer-column{
+      width: 50%;
+}
+.social-media-icon a{
+    margin-right: 25px;
+        
+}
+footer input , textarea {
+    display: block;
+    margin-bottom: 25px;
+    border-radius: 5px;
+background-color:  #FFF;
+border: 0;
+padding: 18px 35px;
+width: 50%;
+color:  #757575;
+font-size: 16px;
+font-weight: 400;
+
+}
+#message-me{
+    text-align: left;
+}
+#connect{
+    text-align: left;
 }
